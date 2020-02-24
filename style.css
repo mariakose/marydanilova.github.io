@@ -104,8 +104,14 @@ aside > div {
     display: inline-block;
     vertical-align: middle;
     font-size: 30px;
-    margin-right: 75px;
     color: #FFF;
+    width: 10%;
+    float: left;
+}
+#title {
+	text-align:center;
+    color: #FFF;
+    width: 90%;
 }
 #logo img {
     width: 50px;
