@@ -120,9 +120,19 @@ body > section {
     color: #333;
 }
 
+body > section img {
+    max-width: 64px;
+	margin-right:5px;
+}
+
 @media screen and (max-width: 1000px) {
 	body > section {
 		padding: 30px 20px;
+	}
+	
+	body > section img {
+    max-width: 56px;
+	margin-right:5px;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -133,6 +143,11 @@ body > section {
 	aside {
 		float: none;
 		width: 100%;
+	}
+	
+	body > section img {
+    max-width: 48px;
+	margin-right:5px;
 	}
 
 }
