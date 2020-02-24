@@ -18,7 +18,7 @@ body,html {
 	background-color: #FFF;
 }
 header {
-    background: #AEC6CF;
+    background: #F44336;
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
@@ -74,7 +74,7 @@ main section {
 	
 }
 footer {
-	background: #AEC6CF;
+	background: #F44336;
 	max-width: 1000px;
 	margin: auto;
 	clear: both;
@@ -82,14 +82,18 @@ footer {
 }
 footer p {
 	padding: 20px;
+	color: white;
 }
 address {
     padding: 10px 20px 30px 10px;
+	color: white;
 }
+
 aside > div {
 	margin: 10px auto;
-	background: #AEC6CF;
+	background: #F44336;
 	min-height: 100px;
+	color: white;
 }
 #logo {
     display: inline-block;
